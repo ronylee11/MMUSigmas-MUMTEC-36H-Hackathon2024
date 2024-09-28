@@ -26,22 +26,30 @@
 ### Technologies Used
 [List all the technologies, programming languages, frameworks, libraries, and tools used in the project. Include any external APIs or datasets.]
 
-- Python 3.7
-- PyTorch
-- TensorFlow
-- Figma
-- React
+- Jupyter Notebook
+- powershell cronjob
+- Roboflow (pill detection, YOLOv5) 
+- ViT (Vision Transformer for Image Duplication) 
 
 ---
 
 ### Installation and Setup
-[Describe how to use install and setup your project. ]
+
+Before launch project:
+1. Have python and jupyter notebook with appopriate library installed.
+2. Have a window OS for powershell cron job.
+
+To setup the project:
+1. Host the project on Google Colab for ease of use.
+2. Run and have fun playing around! !
+3. As for cronjob, run this command cd C:\Path\To\Your\Script\Check-DiskUsage, then .\Check-DiskUsage.ps1
 
 --- 
 
 ### Usage
-[Describe how to use your application. Include example commands, expected inputs, and outputs.]
+Command for CronJob: cd C:\Path\To\Your\Script\Check-DiskUsage, then .\Check-DiskUsage.ps1
 
+Input: 
 --- 
 
 ### Features
