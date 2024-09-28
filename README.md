@@ -1,7 +1,7 @@
 # Western Digital x MUMTEC-36H-Hackathon 2024-
-# [Team Name] – MUMTEC Hackathon 2024 Submission
+# [MMU Sigmas] – MUMTEC Hackathon 2024 Submission
 
-## Project Title: [Insert Project Name]
+## Project Title: Image Processin and Capturing Process Improvement using AI with Predictive Maintenance, in Detecting Pill Defects. 
 
 ### Table of Contents
 1. [Project Overview](#project-overview)
@@ -16,15 +16,14 @@
 ---
 
 ### Project Overview
-[Provide a brief description of your project. Include the problem you are solving, your approach, and the impact of your solution.]
 
-- **Problem Statement**: [Briefly describe the problem or challenge your project addresses.]
-- **Proposed Solution**: [Describe your AI-powered solution, highlighting its key features and benefits.]
+- **Problem Statement**: We are trying to solve challenges of detecting defective pills as an example the system we apply that can be implemented in various field that requires detection such as coin , banknotes, antique and many more. 
+  
+- **Proposed Solution**: We are trying to solve challenges of detecting defective pills as an example the system we apply that can be implemented in various field that requires detection such as coin , banknotes, antique and many more. Our system uses machine learning and image processing and capturing techniques to automatically scan pills on production lines, identifying defects such as incorrect shapes, sizes in real-time. With the help of this system, adapting to different pill design under various environment conditions, improving quality control, reducing recall of pills, and cutting costs. Our team uses ESP 32 camera as firmware and transmit image to computer as our processing unit to analyze and detect pills.  Moreover,  we implemented an ai to check our code feasibility to prevent potential failures of system, and optimization of the software. 
 
 ---
 
 ### Technologies Used
-[List all the technologies, programming languages, frameworks, libraries, and tools used in the project. Include any external APIs or datasets.]
 
 - Jupyter Notebook
 - powershell cronjob
@@ -49,16 +48,29 @@ To setup the project:
 ### Usage
 Command for CronJob: cd C:\Path\To\Your\Script\Check-DiskUsage, then .\Check-DiskUsage.ps1
 
-Input: 
+Input: Place a pill infront of the Camera
+Output: Pill identification and photo will be taken. 
+
+Internal Logic: will be running behind the background when threshold are reached. 
 --- 
 
 ### Features
-[Highlight the key features of your project.]
+
+The Key Features: 
+- Be able to detect and identified the objects and able to identified detect. This can be used for any object for mass production with potential defects in a industry environment.
+- Effective performance and space efficient due to cron job and AI constantly keep track of the storage consumption.
+- Improve performance time and output quality with the assist of Ai interference in the firmware. AI will be able to assist in long term performance.
+- AI improve image capturing and image processing process and thus prolong the lifespan of the hardware. 
 
 --- 
 
 ### Architecture
-[Provide an explanation of your system architecture.]
+
+1. Pill Detection Machine
+2. Video Capturing Devices
+3. Image Processing
+
+extra logic will be performed during firmware performing. 
 
 --- 
 
